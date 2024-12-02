@@ -18,7 +18,7 @@ def main():
     left.sort()
 
     total_distance = 0
-    for i in range(0, len(right)):
+    for _ in range(0, len(right)):
         total_distance += abs(int(right[0]) - int(left[0]))
 
         right.pop(0)
